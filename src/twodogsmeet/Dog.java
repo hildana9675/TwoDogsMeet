@@ -33,20 +33,20 @@ public class Dog {
   
   }
 
-  /*
-   * This 
-   * Pre:
-   * Pro:
-  */
+   /*
+    * This method allows the user to set the aggression of the dog
+    * pre: needs an aggression value
+    * post: sets the aggression value
+   */
   public void setAggression (int aggres)
   {
       aggression = aggres; 
   }
   
   /*
-   * This 
-   * Pre:
-   * Pro:
+   * This method allows the user to get the aggression of the dog
+   * pre: needs an aggression value
+   * post: gets the aggression value
   */
   public int getAggression ()
   {
@@ -54,9 +54,9 @@ public class Dog {
   }
   
   /*
-   * This 
-   * Pre:
-   * Pro:
+   * This method allows the user to set the hunger of the dog
+   * pre: needs an hunger value
+   * post: set the hunger value
   */
   public void setHunger (int hungr)
   {
@@ -64,9 +64,9 @@ public class Dog {
   }
   
   /*
-   * This  
-   * Pre:
-   * Pro:
+   * This method allows the user to get the hunger of the dog
+   * pre: needs an hunger value
+   * post: gets the hunger value
   */
    public int getHunger ()
   {
@@ -85,6 +85,6 @@ public class Dog {
     //output string is complete, return it
     return output;
     
-}
+    }
     
 }
